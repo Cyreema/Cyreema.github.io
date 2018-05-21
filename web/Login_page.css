@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0;
+	background: url(68429593-shopping-hd-wallpapers.jpg);
+	background-size: cover;
+	font-family: lekton;
+}
+.loginbox{
+	position: absolute;
+	top: 50%;
+	left: 50%;							/*related to the position of box*/
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 450px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,0.80);
+}
+.userlogo{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: absolute;
+	top: calc(-150px/2);				/*fixing top half*/
+	left: calc(50% - 70px);
+}
+#loginh{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	margin: 0px;
+	padding: 0 0 20px;
+	text-align: center;
+	color:rgba(13,164,152,1.00);
+}
+.loginbox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color:rgba(13,164,152,1.00);
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.loginbox input[type="text"]{
+	border: none;
+	border-bottom: 1px solid rgba(13,164,152,1.00);
+	background-color: transparent;
+	outline: none;
+	height: 35px;
+}
+.loginbox input[type="password"]{
+	border: none;
+	border-bottom: 1px solid rgba(13,164,152,1.00);
+	background-color: transparent;
+	outline: none;
+	height: 35px;
+}
+::placeholder{
+	color: rgba(0,0,0,0.50);
+}
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	background:rgba(13,164,152,1.00);
+	color: whitesmoke;
+	cursor: pointer;
+	border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover{
+	background: darkslategray;
+	color:rgba(13,164,152,1.00);
+}
+.loginbox a[href="Regstration_page.html"]{
+	color: darkslategray;
+	font-size: 14px;
+	text-decoration: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	
+}
+.loginbox a[href="#"]{
+	color: darkslategray;
+	font-size: 14px;
+	text-decoration: none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 82%;
+	
+}
+.errorlog{
+	color: red;
+	font-size: 14px;
+	position: absolute;
+	bottom: 17%;
+	left: 43%;
+	
+	
+}
+.loginmsg{
+    color:green;
+    font-family:sans-serif;
+    position: absolute;
+    left:40%;
+}

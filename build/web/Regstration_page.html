@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Register_page</title>
+	<link rel="stylesheet" type="text/css" href="Registration_page.css"/>
+	<script src="jquery-3.2.1.js"></script>
+	<script src="Registration_page.js"></script>  
+</head>
+
+<body>
+	<div class="loginbox">
+            <img class="userlogo" alt="Image will not support" src="register+icon.png">
+		<a href="Login_page.html" class="user">Already A User</a>
+		<h2 id="loginh">Register</h2>
+                <form id="reg" name="reg" action="RegSer" method="Post">
+                    <p>Full Name</p>
+                    <input type="text" required name="name" pattern=".{5,32}" placeholder="Enter your name"/>
+                    <p>Email</p>
+                    <input type="email" required name="email" placeholder="Enter your email"/>
+                    <p>Password</p>
+                    <input type="password" id="pass" required pattern=".{8,16}" name="password" placeholder="*********"/>
+                    <span id="error"></span><div class="tickdiv"></div>
+                    <p>Confirm Password</p>
+                    <input type="password" id="conpass" required pattern=".{8,16}" name="confirmpass" placeholder="*********"/>
+                    <input type="submit" id="submitbutton" value="SIGN UP"/>
+                </form>
+	</div>
+</body>
+</html>

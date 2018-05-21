@@ -1,0 +1,204 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+	padding: 0px;
+	background:url(8589130515421-shopping-girl-kids-wallpaper-hd.jpg);
+	background-size: cover;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.addproduct{
+	position: absolute;
+	top: 15%;
+	left: 5%;
+	box-sizing: border-box;
+	width: 450px;
+	height: auto;
+	background-color:rgba(0,0,0,0.6);
+	padding: 20px;
+        padding-right: 20px;
+        z-index: -1;
+}
+#img{
+	height: 75px;
+	width: 75px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+#proh{
+        color: yellow;
+        text-align: center;
+}
+
+input{
+	width: 390px;
+	height: 25px;
+	border: none;
+	outline: none;
+	background-color:transparent;
+        border-bottom: 1px solid #ffffff;
+        padding: 5px;
+        color: cornsilk;
+}
+button{
+	width: 100%;
+	height: 35px;
+	border: none;
+	background-color: crimson;
+}
+p{
+	color:yellow;
+}
+::placeholder{
+        font-size: 18px;
+}
+
+.successmsg{
+        position: absolute;
+        top:50%;
+        left:60%;
+        color: green;
+        z-index: -2;
+}
+.successmsg2{
+        position: absolute;
+        top: 54%;
+        left:60%;
+        color: green;
+        z-index: -2;
+}
+.header{
+        position: fixed;
+	background-color: crimson;
+	overflow: hidden;
+	width: 100%;
+}
+.header a{
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 14px 16px;
+	color: whitesmoke;
+	font-size: 25px;
+}
+.header a:hover{
+	background-color:rgba(138,5,7,0.55);
+}
+
+.sidenav{
+        background-color:rgba(255,255,255,0.80);
+        padding-top:100px;
+        box-sizing:content-box;
+        width: 0%;
+        height: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        transition-delay: 0.1s;
+        transition-duration: 0.5s;
+        z-index: 1;
+        overflow-x: hidden;
+}
+.atag{
+	list-style: none;
+	width: 300px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "tenor-sans",sans-serif;
+	font-size: 18px;
+	color: crimson;
+	margin: 15px auto;
+	display:block;
+}
+.atag:not(#atag #btag){
+        height: 120px;
+}
+li{
+	list-style: none;
+}
+.header{
+        position: fixed;
+	background-color: crimson;
+	overflow: hidden;
+	width: 100%;
+}
+.header a{
+	display: block;
+	text-align: center;
+	float: left;
+	padding: 14px 16px;
+	color: whitesmoke;
+	font-size: 25px;
+}
+
+.header a:hover{
+	background-color:rgba(138,5,7,0.55);
+}
+
+.header .search button{
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+}
+.header .search{
+	float:left;
+}
+.header .login{
+	float: right;
+	font-size: 19px;
+}
+.header .register{
+	float: right;
+	font-size: 19px;
+}
+.header .search input{
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
+}
+.header .search input,.header .search button,.header .login,.header.header a{
+	float: left;
+}
+#search{
+	height: 35px;
+	width: 450px;
+	border: none;
+	outline: none;
+	background-color: rgba(255,255,255,1);
+        padding: 10px;
+}
+#srcbut{
+	height: 35px;
+	width:100px;
+	color: crimson;
+	border: none;
+	background-color: #ffffff;
+	cursor: pointer;
+	outline: none;
+}
+#srcbut:hover{
+	background-color:coral;
+        color:darkred;
+}
+#atag{
+        font-family: sans-serif;
+        font-size: smaller;
+        display: block;
+}
+#btag{
+        font-family: sans-serif;
+        font-size: smaller;
+        display: block;
+        padding-bottom: 10px;
+}
+#divimg{
+	position: absolute;
+	top: 75px;
+	padding: 50px;
+}
